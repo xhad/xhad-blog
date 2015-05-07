@@ -1,0 +1,169 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  background-image: url('../images/clock.jpg');
+
+}
+
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+ 
+}
+
+/*Main navigation */
+
+.navBar {
+    background-color: rgba(1, 24, 44, 0.5);
+}
+
+/* Custom page header */
+.header {
+  /*border-bottom: 1px solid #e5e5e5; */
+  margin-bottom: 10px;
+
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+  color: #000;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid rgba(1, 1, 1, 0.5);
+  background-color: rgba(1, 24, 44, 0.5);
+  position:fixed;bottom:0;left:0;right:0;height:50px;
+}
+
+.container-narrow {
+  background-color: #fff;
+  padding: 20px;
+
+
+}
+.container-narrow > hr {
+  margin: 10px 0;
+
+}
+.container-narrow textarea {
+  width: 100%;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.span1 {
+  width: 100px;
+}
+
+.form-control {
+  height: 50px;
+}
+
+.idea-box {
+   margin-top: 20px;
+   margin-bottom: 5px;
+}
+
+.idea {
+  font-size: 20px;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 5px;
+
+}
+
+.upvotes {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.glyphicon-thumbs-up {
+  color: black;
+  font-size: 25px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.glyphicon-thumbs-up:hover {
+  color: #337ab7;
+  font-size: 25px;
+ 
+}
+
+
+
+.form-control {
+  font-size: 20px;
+  margin: 10px;
+}
+.input {
+  width: 100%;
+}
+
+#idea-textarea {
+  margin-right: -20px;
+}
+
+#idea-button {
+  margin-top: 10px;
+}
